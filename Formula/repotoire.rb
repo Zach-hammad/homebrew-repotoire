@@ -1,7 +1,7 @@
 class Repotoire < Formula
   desc "Graph-powered code analysis with 114 detectors"
   homepage "https://github.com/Zach-hammad/repotoire"
-  version "0.3.105"
+  version "0.3.106"
   license "MIT"
 
   on_macos do
