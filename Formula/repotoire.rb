@@ -1,7 +1,7 @@
 class Repotoire < Formula
   desc "Graph-powered code analysis with 114 detectors and adaptive thresholds"
   homepage "https://github.com/Zach-hammad/repotoire"
-  version "0.3.111"
+  version "0.3.112"
   license "MIT"
 
   on_macos do
@@ -18,7 +18,7 @@ class Repotoire < Formula
   on_linux do
     on_intel do
       url "https://github.com/Zach-hammad/repotoire/releases/download/v#{version}/repotoire-v#{version}-x86_64-linux.tar.gz"
-      sha256 "17512bbd5129b35673f53bf2013f8fc287c40a22e238d9422d6d75c2b75792db"
+      sha256 "23284cae0f4cee7f8675df26993a2159404fa17467bb9f979e6782e49ee66672"
     end
   end
 
