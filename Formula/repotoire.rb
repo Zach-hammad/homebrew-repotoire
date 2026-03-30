@@ -1,24 +1,24 @@
 class Repotoire < Formula
   desc "Graph-powered code analysis with 115 detectors and predictive coding"
   homepage "https://github.com/Zach-hammad/repotoire"
-  version "0.5.3"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/Zach-hammad/repotoire/releases/download/v#{version}/repotoire-macos-aarch64.tar.gz"
-      sha256 "d1f4ad59b94d1727679df5a0b8af3cd1d3af4b2a3d1dd8e7569577e41e1ec06a"
+      sha256 "39d5db8f8c2dc5954a8f8566babad44b76241bf7871152a2c0e59fedd17074b1"
     end
     on_intel do
       url "https://github.com/Zach-hammad/repotoire/releases/download/v#{version}/repotoire-macos-x86_64.tar.gz"
-      sha256 "3677e5005cb6f77941c155e0a33e154993563051e29d13579b5f617ddc6f26f4"
+      sha256 "93a223bdce9437ae1dad5bc7b9bbd8dd9d02f6bba8abe0d4d02814f12e84a7ca"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Zach-hammad/repotoire/releases/download/v#{version}/repotoire-linux-x86_64.tar.gz"
-      sha256 "fe75cae21475dc74b5ada054305b1612975171ebd26f70700802759bf6b9d6c1"
+      sha256 "05e8e182c24ec3a949b51cb4d17a39132e23cfede20ea8be778d7407030754c2"
     end
   end
 
